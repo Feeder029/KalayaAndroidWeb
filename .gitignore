@@ -1,0 +1,49 @@
+# ================================
+# Environment & Sensitive Data
+# ================================
+.env
+.env.*
+*.key
+*.pem
+
+# ================================
+# Backend Folders (Not Public)
+# ================================
+src/database/
+src/logs/
+src/php/
+src/helpers/
+src/api/
+src/config/
+src/includes/
+src/classes/
+
+# ================================
+# System & Temporary Files
+# ================================
+*.log
+*.sql
+*.bak
+*.tmp
+*.cache
+
+# ================================
+# Build / Dependency Folders (future)
+# ================================
+node_modules/
+dist/
+build/
+
+# ================================
+# IDE / Editor Settings
+# ================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ================================
+# OS / Local System Files
+# ================================
+.DS_Store
+Thumbs.db
