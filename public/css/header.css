@@ -13,11 +13,12 @@ body{
     padding: 15px 10px;
     border-radius: 12px;
     display: inline-block;
-    margin: 40px;
+    margin: 20px;
     backdrop-filter: blur(18px);
     justify-self: center;
     display: flex;
     position: fixed;
+    z-index: 10;
 }
 
 .nav-links{
