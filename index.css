@@ -20,7 +20,7 @@ section{
 }
 
 #home{
-    background: url(../assets/gamebg.jpg) center/cover no-repeat;
+    background: url(../assets/img/gamebg.jpg) center/cover no-repeat;
     justify-content: center;
 }
 
