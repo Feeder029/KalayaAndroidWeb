@@ -1,1 +1,20 @@
-About
+#Folder Details
+
+- docs: for documents files
+
+- public: public face accessible 
+    - assets: img, vid, etc
+    - css: css designs
+    - js: js frontend
+    - download: downloadable file for user
+
+- src: main source code for backend
+    - api: api scripts 
+    - config: config files
+    - database: db files
+    - includes: reusable codes
+    - logs: logs for errors tracking 
+    - php: php entry pts or handlers
+
+- .env: config file for sensitive variable
+- .gitignore: specify files for git to ignore to push

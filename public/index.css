@@ -8,7 +8,7 @@
 body{
     font-family: "Inter", sans-serif;
     line-height: 1.6;
-    scroll-behavior: smooth;
+    scroll-behavior:smooth;
     background-color: #f9f9f9;
 }
 
@@ -20,7 +20,7 @@ section{
 }
 
 #home{
-    background: url(../assets/img/gamebg.jpg) center/cover no-repeat;
+    background: url(../public/assets/img/gamebg.jpg) center/cover no-repeat;
     justify-content: center;
 }
 
