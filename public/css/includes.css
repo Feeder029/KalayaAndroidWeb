@@ -6,7 +6,6 @@
 
 body{
     font-family: "Inter", sans-serif;
-    background-color: aqua;
 }
 
 .navbar{
@@ -64,4 +63,12 @@ body{
     height: 3px;
     background: #ffcc00;
     border-radius: 3px;
+}
+
+footer {
+    background: #020617;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    color: #fff;
 }

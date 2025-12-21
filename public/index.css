@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Almendra+SC&family=Girassol&display=swap');
+:root {
+    --bg: #0b0b0b;
+    --panel: #151515;
+    --accent: #d4a017;
+    --text: #e5e5e5;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -7,9 +14,10 @@
 
 body{
     font-family: "Inter", sans-serif;
-    line-height: 1.6;
     scroll-behavior:smooth;
-    background-color: #f9f9f9;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
 }
 
 section{
@@ -17,6 +25,7 @@ section{
     display: flex;
     flex-direction: column;
     position: relative;
+    padding: 0 40px;
 }
 
 #home{
@@ -89,17 +98,18 @@ section{
 }
 
 #features{
-    background-color: aquamarine;
+    justify-content: center;
 }
 
 #about{
-    background-color: blueviolet;
+   
+    justify-content: center;
 }
 
 #system{
-    background-color: cadetblue;
+    justify-content: center;
 }
 
 #contact{
-    background-color: burlywood;
+    justify-content: center;
 }

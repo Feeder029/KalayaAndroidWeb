@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KalayaAndroid</title>
-    <link rel="stylesheet" href="../public/index.css">
+    <link rel="stylesheet" href="../public/index.css?v=1.0.2">
     <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
     <link
     rel="stylesheet"
@@ -16,12 +16,12 @@
 
 </head>
 <body>
+    <!-- header -->
     <header>
-        <!-- header -->
         <?php include '../src/includes/header.php'; ?>
     </header>
    
-
+    <!-- Home -->
     <section id="home">
         <div class="home-container">
             <div class="title">
@@ -42,22 +42,29 @@
         </div>
     </section>
 
+    <!-- Features -->
     <section id="features">
-        features
+        <?php include '../public/pages/features.php'; ?>
     </section>
 
+    <!-- About -->
     <section id="about">
-        about
+        <?php include '../public/pages/about.php'; ?>
     </section>
 
+    <!-- System Requirements -->
     <section id="system">
-        system
+        <?php include '../public/pages/system.php'; ?>
     </section>
 
+    <!-- Contact -->
     <section id="contact">
-        contact
+        <?php include '../public/pages/contact.php'; ?>
     </section>
 
-    <footer></footer>
+    <!-- Footer -->
+    <footer>
+        <?php include '../src/includes/footer.php'; ?>
+    </footer>
 </body>
 </html>
