@@ -1,6 +1,10 @@
 /* SYSTEM */
 .system {
     background: var(--panel);
+    min-height: 60vh;
+    padding-top: 25px;
+    bottom: -50px;
+    top: -50px;
 }
 .system ul {
     max-width: 500px;

@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>System Requirements</title>
-    <link rel="stylesheet" href="../public/css/system.css">
+    <link rel="stylesheet" href="../public/css/system.css?=v1.0.1">
 </head>
 <body>
-    <!-- SYSTEM -->
     <section class="system" id="system">
         <h2>System Requirements</h2>
         <ul>

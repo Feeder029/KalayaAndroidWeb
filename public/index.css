@@ -85,6 +85,8 @@ section{
     position: relative;
     top: 7rem;
     z-index: 10;
+    display: flex;
+    justify-content: center;
 }
 
 .info h3{

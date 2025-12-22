@@ -66,9 +66,8 @@ body{
 }
 
 footer {
-    background: #020617;
+    background: var(--accent);
     text-align: center;
     padding: 20px;
-    margin-top: 30px;
     color: #fff;
 }

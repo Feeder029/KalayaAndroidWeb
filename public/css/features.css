@@ -3,6 +3,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
     gap: 25px;
+
 }
 .feature-box {
     background: var(--panel);
@@ -13,7 +14,14 @@
     margin-bottom: 15px;
 }
 
-/* IMAGE GALLERY (like wireframe middle) */
+/* IMAGE GALLERY */
+#gallery{
+    padding-top: 25px;
+    padding-bottom: 40px;
+    background: var(--panel);
+    min-height: 0;
+}
+    
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px,1fr));

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Features</title>
-    <link rel="stylesheet" href="../public/css/features.css">
+    <link rel="stylesheet" href="../public/css/features.css?v=1.0.2">
 </head>
 <body>
     <!-- FEATURES -->
@@ -30,7 +30,7 @@
     </section>
 
     <!-- GALLERY -->
-    <section>
+    <section id="gallery">
         <h2>Game Screenshots</h2>
         <div class="gallery">
            <img src="../public/assets/img/gamebg.jpg">

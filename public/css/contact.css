@@ -28,3 +28,8 @@ section h2 {
     margin-bottom: 40px;
     font-size: 32px;
 }
+
+#contact{
+    min-height: 80vh;
+    padding-top: 50px;
+}

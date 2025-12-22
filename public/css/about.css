@@ -1,14 +1,7 @@
-/* SECTION */
-
 section h2 {
     text-align: center;
     margin-bottom: 40px;
     font-size: 32px;
-}
-
-/* ABOUT */
-.about {
-    background: var(--panel);
 }
 .about-content {
     display: grid;

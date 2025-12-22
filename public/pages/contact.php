@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
-    <link rel="stylesheet" href="../public/css/contact.css">
+    <link rel="stylesheet" href="../public/css/contact.css?v=1.0.1">
 </head>
 <body>
-    <!-- CONTACT -->
     <section id="contact">
         <h2>Contact</h2>
         <form>
