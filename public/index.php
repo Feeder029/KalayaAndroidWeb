@@ -1,6 +1,6 @@
-<?php
-require_once __DIR__ . '/../src/config/logging.php';
-
+<?php 
+    require_once __DIR__ . '/../src/config/logging.php'; 
+    echo $thisVariableDoesNotExist;
 ?>
 
 <!DOCTYPE html>
