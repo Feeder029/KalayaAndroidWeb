@@ -26,6 +26,8 @@
         </form>
     </section>
 
+    <script src="../public/js/logger.js"></script>
     <script src="../public/js/email.js"></script>
+
 </body>
 </html>

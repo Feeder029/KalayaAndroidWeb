@@ -1,3 +1,8 @@
+<?php
+require_once __DIR__ . '/../src/config/logging.php';
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

@@ -1,20 +1,31 @@
-#Folder Details
+*** PROJECT FOLDER STRUCTURE SUMMARY ***
 
-- docs: for documents files
+> docs/ = Contains documentation files only (README, setup guides, API notes, diagrams). No executable code should be placed here.
+    
+> public/ = Holds all files accessible by users through the browser (frontend).
 
-- public: public face accessible 
-    - assets: img, vid, etc
-    - css: css designs
-    - js: js frontend
-    - download: downloadable file for user
+    - assets/ : images, videos, icons, and other media files
+    - css/ : frontend styling and layout files
+    - js/ : frontend JavaScript (UI logic, form handling, AJAX). Do NOT store secret keys here
+    - download/ : files intended for user download (APK, PDFs, ZIPs, installers)
 
-- src: main source code for backend
-    - api: api scripts 
-    - config: config files
-    - database: db files
-    - includes: reusable codes
-    - logs: logs for errors tracking 
-    - php: php entry pts or handlers
+> src/ = Contains backend/server-side code and should NOT be directly accessible from the browser.
 
-- .env: config file for sensitive variable
-- .gitignore: specify files for git to ignore to push
+    - api/ : backend API endpoints that handle AJAX requests and form submissions
+    - config/ : configuration files and environment loaders
+    - database/ : database connections, queries, and related scripts
+    - includes/ : reusable PHP components (header, footer, helpers)
+    - logs/ : application and error logs for debugging
+
+> .env = Stores sensitive configuration such as database credentials, API keys, and secrets. Must not be committed to Git or placed inside public/.
+
+> .gitignore = Defines which files and folders Git should ignore (e.g., .env, logs, temporary files).
+
+_________________________________________
+|               SUMMARY                 |    
+|                                       |
+| public/ = frontend only               |
+| src/ = backend only                   |
+| Never expose secrets in public files  |
+| Keep documentation in docs/           |
+-----------------------------------------
