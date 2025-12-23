@@ -28,13 +28,15 @@
                 <h1>KalayaAndroid</h1>
             </div>
             <div class="home-download">
-                <button class="download-btn-play">
-                    <i class="fa-solid fa-play"></i>
-                    Play
-                </button>
-                <button class="download-btn-type">
-                    >
-                </button>
+                <a href="../public/downloads/test.txt" download>
+                    <button class="download-btn-play">
+                        <i class="fa-solid fa-play"></i>
+                        Play
+                    </button>
+                    <button class="download-btn-type">
+                        >
+                    </button>
+                </a>
             </div>
             <div class="info">
                 <h3>A 3D Role-Playing Game About Philippine Revolution for Android</h3>
