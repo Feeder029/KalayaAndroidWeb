@@ -1,7 +1,7 @@
 /* CONTACT */
 form {
     max-width: 500px;
-    margin: auto;
+    margin: 0 auto;
 }
 input, textarea {
     width: 100%;
@@ -9,7 +9,7 @@ input, textarea {
     border: 1px solid #222;
     color: #fff;
     padding: 12px;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
 }
 
 textarea{
@@ -25,11 +25,19 @@ form button {
 
 section h2 {
     text-align: center;
-    margin-bottom: 40px;
     font-size: 32px;
 }
 
 #contact{
     min-height: 80vh;
-    padding-top: 50px;
+}
+
+#captcha-wrap{
+    display: none;
+}
+
+.g-recaptcha{
+    padding: 20px;
+    justify-items: center;
+   
 }
