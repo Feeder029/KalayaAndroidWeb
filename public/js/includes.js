@@ -27,9 +27,9 @@ window.addEventListener("scroll", () => {
         item.classList.remove("active");
 
         if (link.getAttribute("href") === `#${current}`) {
-        item.classList.add("active");
-        }
+            item.classList.add("active");
+            }
+        });
     });
-});
 
 });
