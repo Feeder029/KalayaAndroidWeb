@@ -22,7 +22,7 @@
     </header>
    
     <!-- Home -->
-    <section id="home">
+    <section id="home" class="section">
         <div class="home-container">
             <div class="title">
                 <h1>KalayaAndroid</h1>
@@ -43,22 +43,22 @@
     </section>
 
     <!-- Features -->
-    <section id="features">
+    <section id="features" class="section">
         <?php include '../public/pages/features.php'; ?>
     </section>
 
     <!-- About -->
-    <section id="about">
+    <section id="about" class="section">
         <?php include '../public/pages/about.php'; ?>
     </section>
 
     <!-- System Requirements -->
-    <section id="system">
+    <section id="system" class="section">
         <?php include '../public/pages/system.php'; ?>
     </section>
 
     <!-- Contact -->
-    <section id="contact">
+    <section id="contact" class="section">
         <?php include '../public/pages/contact.php'; ?>
     </section>
 
