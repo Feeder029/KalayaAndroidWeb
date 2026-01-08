@@ -20,7 +20,7 @@
 > .env = Stores sensitive configuration such as database credentials, API keys, and secrets. Must not be committed to Git or placed inside public/.
 
 > .gitignore = Defines which files and folders Git should ignore (e.g., .env, logs, temporary files).
-
+test
 _________________________________________
 |               SUMMARY                 |    
 |                                       |
