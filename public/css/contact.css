@@ -21,6 +21,7 @@ form button {
     border: none;
     padding: 14px;
     font-weight: bold;
+    color: var(--text);
 }
 
 section h2 {

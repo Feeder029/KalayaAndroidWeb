@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Almendra+SC&family=Girassol&display=swap');
 :root {
     --bg: #0b0b0b;
-    --panel: #151515;
-    --accent: #d4a017;
-    --text: #e5e5e5;
+    --panel: hsl(0, 0%, 8%);
+    --accent: #fd4556;
+    --text: #fffbf5;
 }
 
 *{
